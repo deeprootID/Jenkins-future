@@ -1,5 +1,5 @@
 @Library('library-test@master') _
 deliveryPipeline(
-  agent: dockerworker
+  agent: dockerworker,
   appname: my-app
 )
